@@ -1,0 +1,59 @@
+  .header {
+    &__info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 0;
+      margin-bottom: 40px;
+
+    }
+
+    .mob {
+      display: none;
+    }   
+    
+    label{
+      display: none;
+    }
+
+    input {
+      display: none;
+      overflow: visible;
+    }
+
+
+
+    .navbar {
+      &__list {
+        display: flex;
+        column-gap: 20px;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+      }
+
+      &__item {
+        display: block;
+        padding: 5px 5px 3px 5px;
+        text-decoration: none;
+        border-bottom: 2px solid #f2f2f2;
+        font-family: "Barlow";
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        text-transform: uppercase;
+        color: #83888f;
+
+        &:hover {
+          transition: all 0.5s ease;
+          transform: scale(1.1);
+          border-bottom: 2px solid red;
+        }
+      }
+
+    }
+
+    &__settings {
+      display: none;
+    }
+  }

@@ -1,0 +1,224 @@
+@media only screen and (max-width: 1400px) {
+  .container {
+    max-width: 1140px;
+  }
+
+  .quality__img {
+    position: absolute;
+    bottom: 100px;
+    right: 50px;
+  }
+
+  .collection {
+    background-size: 1035px 196px;
+    background-position: left 50px top -62px;
+
+    &__list {
+      left: 3%;
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .commitment {
+    width: 100%;
+
+    &__paragrft {
+      width: 360px;
+    }
+  }
+
+  .quality {
+    text-align: center;
+
+    &__list {
+      left: 3%;
+    }
+  }
+
+  .collection__list {
+    flex-wrap: wrap;
+    column-gap: 84px;
+    left: 3%;
+  }
+
+
+
+  .main__choose {
+    margin-bottom: 500px;
+  }
+
+  .main__collection-deckription {
+    margin: 0;
+  }
+
+
+
+  .main__quality-img img {
+    width: 573px;
+    height: 320px;
+    position: absolute;
+    bottom: 289px;
+    right: 152px;
+  }
+
+  .main__choose-list {
+    position: absolute;
+    left: 150px;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  .main__choose-item {
+    width: 655px;
+    display: flex;
+    padding: 31px;
+  }
+
+  .main__choose-item div {
+    width: 344px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .container {
+    max-width: 720px;
+  }
+
+  .main__commitmain-paragrft {
+    width: 300px;
+  }
+
+  .commitment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    width: 100%;
+    margin: 0 auto 298px;
+
+  }
+
+
+
+  .main__commitent-text {
+    margin: 0;
+  }
+
+  .main__commitment-img img {
+    width: 250px;
+  }
+
+  .main__quality-img img {
+    width: 473px;
+    height: 320px;
+    position: absolute;
+    bottom: 289px;
+    right: 152px;
+  }
+
+  .main__quality-img {
+    position: absolute;
+    bottom: 107px;
+    right: -15px;
+  }
+
+  .main__product-list {
+    width: 688px;
+  }
+
+  .main__product-item {
+    width: 175px;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 400px;
+  }
+
+  .header__nav-list {
+    display: none;
+  }
+
+  .header__settings {
+    display: block;
+  }
+
+  .main__hero {
+    height: 540px;
+  }
+
+  .main__hero-text {
+    margin: 0 auto 24px;
+    width: 231px;
+    font-family: 'Fraunces ';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+  }
+
+  .main__hero-paragrft {
+    margin: 0 auto 39px;
+    width: 281px;
+    text-align: center;
+
+  }
+
+  .main__hero-description {
+    text-align: center;
+    padding: 86px 24px 60px;
+  }
+
+  .commitment {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main__commitment-img img {
+    width: 400px;
+    margin-bottom: 47px;
+  }
+
+  .main__commitmain-paragrft {
+    width: 355px;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .main__quality {
+    padding: 112px 24px 91px;
+  }
+
+  .main__quality-img img {
+    width: 329px;
+    height: 204px;
+    position: absolute;
+    bottom: 330px;
+    right: 31px;
+  }
+
+  .quality-text {
+    margin: 24px auto;
+    width: 270px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .main__quality-paragrft {
+    margin: 0 auto;
+    width: 297px;
+  }
+}
