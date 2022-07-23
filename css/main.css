@@ -1310,6 +1310,18 @@ img {
   color: #fdd6ba;
 }
 
+label {
+  transition: all 1s linear;
+}
+
+label:hover {
+  transform: rotateX(180deg);
+}
+
+input:checked ~ .deliver__item {
+  display: none;
+}
+
 .deliveries {
   display: flex;
   justify-content: space-around;
@@ -1351,6 +1363,9 @@ img {
   color: #333D4B;
 }
 
+.deliver__product input {
+  display: none;
+}
 .deliver__product .deliver__description {
   display: flex;
   align-items: center;

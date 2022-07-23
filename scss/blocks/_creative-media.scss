@@ -1,0 +1,160 @@
+@media only screen and (max-width: 1400px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .pick__list {
+    column-gap: 0;
+  }
+
+  .pick__list {
+    p {
+      color: #fff;
+      width: 200px;
+    }
+  }
+
+  .dropmi {
+
+    margin: 0 0 50px;
+    width: 542px;
+  }
+
+  .dropmi__box:nth-child(2n + 1) {
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid blue;
+  }
+
+  .deliveries {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    column-gap: 10px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .container {
+    max-width: 720px;
+  }
+
+  .pick__list {
+    p {
+      color: #fff;
+      width: 170px;
+    }
+  }
+
+  .dropmi__box:nth-child(2n + 1) {
+    width: 60px;
+  }
+
+  .deliveris__list {
+    display: none;
+  }
+
+  .deliver__list {
+    width: 710px;
+  }
+
+  .dropmi {
+    margin: 0 0 50px;
+    width: 380px;
+  }
+
+  .pick__list {
+    column-gap: 30px;
+
+    .pick__text {
+      width: 155px;
+      font-size: 25px;
+    }
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 400px;
+  }
+
+
+  .pick {
+    padding: 80px 24px;
+
+    &__list {
+      text-align: center;
+      flex-wrap: wrap;
+      row-gap: 60px;
+    }
+  }
+
+
+
+  .pick__list {
+    h3 {
+      margin: 20px auto;
+      max-width: 347px;
+    }
+  }
+
+  .pick__list {
+    p {
+      margin: 0 auto;
+      max-width: 328px;
+    }
+  }
+
+  .deliver__product .deliver__text {
+    font-size: 23px;
+  }
+
+  .deliver__list {
+    display: flex;
+    width: 360px;
+    margin-bottom: 88px;
+    padding: 0;
+    row-gap: 16px;
+    list-style: none;
+    flex-direction: column;
+  }
+
+  .deliver__item {
+    padding: 32px 28px 84px;
+    width: 100%;
+  }
+
+  .deliver__list-bottom {
+    margin-bottom: 40px;
+    padding: 27px 40px;
+    width: 360px;
+    border-radius: 10px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .container {
+    max-width: 300px;
+    ;
+  }
+
+  .deliver__list {
+    max-width: 250px;
+  }
+
+  .deliver__list-bottom {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 27px 40px;
+    max-width: 249px;
+    border-radius: 10px;
+  }
+} 
