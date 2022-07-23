@@ -896,7 +896,7 @@ img {
   .header .mob__list {
     position: absolute;
     top: 90px;
-    left: 140px;
+    left: 20px;
     width: 360px;
     height: 543px;
     border-bottom: none;
