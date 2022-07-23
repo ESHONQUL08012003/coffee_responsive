@@ -10,18 +10,15 @@
 
     .mob {
       display: none;
-    }   
-    
-    label{
-      display: none;
     }
 
     input {
       display: none;
-      overflow: visible;
     }
 
-
+    label {
+      display: none;
+    }
 
     .navbar {
       &__list {

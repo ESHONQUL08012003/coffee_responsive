@@ -367,12 +367,11 @@ img {
 .header .mob {
   display: none;
 }
-.header label {
-  display: none;
-}
 .header input {
   display: none;
-  overflow: visible;
+}
+.header label {
+  display: none;
 }
 .header .navbar__list {
   display: flex;
@@ -888,16 +887,43 @@ img {
   .header {
     position: relative;
   }
-  .header .navbar__list {
-    position: absolute;
-    top: 120px;
-    left: 170px;
-    display: none;
-    flex-direction: column;
-    width: 360px;
-  }
-  .headr label {
+  .header label {
     display: block;
+  }
+  .header input:checked ~ .mob {
+    display: block;
+  }
+  .header .mob__list {
+    position: absolute;
+    top: 90px;
+    left: 140px;
+    width: 360px;
+    height: 543px;
+    border-bottom: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+    padding: 0;
+    list-style: none;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 1000;
+  }
+  .header .navbar__item {
+    border-bottom: none;
+  }
+  .header .mob__link {
+    text-decoration: none;
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #333D4B;
+  }
+  nav {
+    display: none;
   }
   .hero {
     height: 540px;
@@ -944,7 +970,7 @@ img {
   }
   .choose__text {
     display: inline-block;
-    width: 294px;
+    max-width: 294px;
     font-family: "Fraunces";
     font-weight: 900;
     font-size: 28px;
@@ -954,7 +980,7 @@ img {
   .choose__paragrft {
     text-align: center;
     margin: 0;
-    width: 288px;
+    max-width: 288px;
   }
   .choose__list {
     position: absolute;
@@ -1008,6 +1034,38 @@ img {
     display: flex;
     flex-direction: column;
     row-gap: 10px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .container {
+    max-width: 220px;
+  }
+  .hero__paragrft {
+    max-width: 200px;
+    margin: 0 auto 39px;
+    text-align: center;
+  }
+  .collection__item {
+    max-width: 200px;
+  }
+  .choose__description {
+    padding: 80px 0 50px;
+    max-width: 226px;
+  }
+  .choose__list {
+    left: 17px;
+  }
+  .choose__item {
+    max-width: 225px;
+  }
+  .product__list-paragrft {
+    margin: 0 auto;
+    max-width: 200px;
+  }
+  .main__dropmi-box {
+    width: 210px;
+    margin: 0 auto;
     text-align: center;
   }
 }
