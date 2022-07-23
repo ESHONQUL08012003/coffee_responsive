@@ -257,6 +257,11 @@
      }
    }
 
+   .product__item {
+     width: 300px;
+     text-align: center;
+   }
+
    .main__dropmi-box {
      width: 300px;
      margin: 0 auto;
@@ -307,12 +312,12 @@
 
  @media only screen and (max-width: 400px) {
    .container {
-     max-width: 220px;
+     max-width: 300px;
    }
 
-.mob__link {
-  font-size: 24px;
-}
+   .mob__link {
+     font-size: 24px;
+   }
 
    .hero__paragrft {
      max-width: 200px;
@@ -341,6 +346,10 @@
      margin: 0 auto;
      max-width: 200px;
    }
+
+     .product__item {
+       width: 200px;
+     }
 
    .main__dropmi-box {
      width: 210px;
